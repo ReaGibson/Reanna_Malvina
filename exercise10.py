@@ -18,3 +18,5 @@ for file in file_list:
     if file_size > 0: # checks if the file is not empty
         file_name = os.path.basename(file) #gets just the file name without the file path
         print(f"{file_name} - {file_size} bytes") # prints the file name and size using an 'f' string
+
+        change test git
