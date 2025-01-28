@@ -13,6 +13,6 @@ while i < 42:
 else: # 'i' > 42 (meaning initial condition is false)
     print("Loop expired: ", i)
 
-#this print command will always execute,regardless of if the loop ran or not
+#this print command will always execute,regardless of if the loop ran or not as its not part of the loop
 #once 'i' is larger than 'j' after running the loop it will print the final value of 'i' after all the operations
 print("Final value: ", i)
